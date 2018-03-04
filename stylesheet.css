@@ -227,6 +227,9 @@ h2{
 	font-size: 0.7em;
 	color: white;
 }
+#easteremail>h2{
+	text-decoration: underline;
+}
 #modulebreakdowns li, .module li{
 	float: none;
 	font-size: 1em;
