@@ -240,7 +240,10 @@ h2{
 	margin-left: 20px;
 }
 .lefttext>h1, .lefttext div, .lefttext p, .lefttext li{
-	color: #9C9A40;
+	color: #fff;
+}
+.about>p{
+	color: white !important;
 }
 .text-left{
 	float: none;
