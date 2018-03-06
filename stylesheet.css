@@ -523,19 +523,19 @@ body {font-family: Verdana, sans-serif;}*/
 	text-align: center;
 	color: #5388CD;
 	width: 90%;
-	margin: 0px 50px;
+	margin: 0px;
 	padding: 5px;
 }
 .modulebreakdowns>div>h4{
 	text-align: center;
 	color: #9C9A40;
 	width: 90%;
-	margin: 0px 50px;
+	margin: 0px 0px;
 	padding: 5px;
 }
 .module{
 	color: white;
-	height: 300px;
+	height: 250px;
 	font-size: 1.2em;
 	margin: 10px 30px;
 }
@@ -743,6 +743,7 @@ section>a{
 
 #modulesfooter{
 	position: relative;
+	margin-top: 0;
 }
 
 
@@ -903,6 +904,12 @@ h2{
 	padding-bottom: 50px;
 	margin-top: 10px;
 }
+.module{
+	height: 325px;
+}
+.linksbox{
+	width: 70%
+}
 }
 
 
@@ -986,11 +993,22 @@ footer section{
 	padding: 10px;
 	margin: 0px 0px 0px 10px;
 }
+.module{
+	height: auto;
+}
+.linksbox{
+	width: 80%;
+}
+
 }
 
 
 
-
+@media(max-width: 640px){
+.linksbox{
+	width: 90%;
+}
+}
 
 @media (max-width: 575px){
 	.col-xxs-12{
@@ -999,4 +1017,7 @@ footer section{
 		position: relative;
 		left: 20px;
 	}
+.linksbox{
+	width: 95%;
+}
 }
