@@ -525,7 +525,6 @@ body {font-family: Verdana, sans-serif;}*/
 	width: 90%;
 	margin: 0px 50px;
 	padding: 5px;
-	border: 2px solid white;
 }
 .modulebreakdowns>div>h4{
 	text-align: center;
@@ -533,7 +532,6 @@ body {font-family: Verdana, sans-serif;}*/
 	width: 90%;
 	margin: 0px 50px;
 	padding: 5px;
-	border: 2px solid white;
 }
 .module{
 	color: white;
@@ -674,7 +672,7 @@ section>a{
     padding: 0 5px;
     font-size: 8px;
 	font-weight: clear;
-	font-family: arial;
+	font-family: inherit;
     width: Auto;
     text-align: center;
     text-decoration: none;
@@ -693,14 +691,14 @@ section>a{
 .fa-copywrite:hover{
 	color: #55ACEE;
 }
-.fa-facebook {
-    color: #3B5998 /****/;
+.fa-facebook:hover {
+    color: #3B5998;
 }
-.fa-twitter {
-    color: #55ACEE /***/;
+.fa-twitter:hover {
+    color: #55ACEE;
 }
-.fa-instagram {
-    color:#F9A147 /****/;
+.fa-instagram:hover {
+	color: #8A4702;
 }
 /** Home **/
 
