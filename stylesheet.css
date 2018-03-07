@@ -106,6 +106,13 @@ nav{
 	float: left;
 	margin-left: 0 !important;
 }
+.central-brand{
+	height: 100%;
+	padding: 0;
+	margin: auto;
+	margin-left: 0 !important;
+	float: center !important;
+}
 #form>a{
 	color: #9C9A40;
 }
@@ -934,9 +941,6 @@ h2{
 
 
 @media (max-width: 767px){
-.navbar-brand{
-	width: 20%;	
-}
 .main-content{
 	top:0;
 }
@@ -1038,7 +1042,7 @@ footer section{
 	width: 90%;
 }
 .navbar-brand{
-	width: 22%;	
+	width: 30%;	
 }
 }
 
