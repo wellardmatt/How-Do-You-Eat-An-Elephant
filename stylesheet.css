@@ -101,7 +101,6 @@ nav{
 }
 .navbar-brand{
 	height: 100%;
-	width: 200px;
 	padding: 0;
 	margin: auto;
 	float: left;
@@ -172,7 +171,7 @@ hr{
 	opacity: 0.4;
 }
 .main-content>#title>h1{
-	margin: 10px 0px 0px 0px;
+	margin: 30px 0px 0px 0px;
 	padding: 0px;
 	box-sizing: border-box;
 }
@@ -773,7 +772,10 @@ section>a{
 }
 .enquiries>h2{
 	font-size: 1.8em;
-}	
+}
+.enquiries>#title{
+	margin-top: -20px;	
+}
 	/** TESTIMONIAL BOX SIZES **/
 
 #testimonial-tiles>.row-3-1{
@@ -841,6 +843,12 @@ section>a{
 
 
 @media (min-width: 768px) and (max-width: 991px){
+.homepage>#title>h1{
+	margin-top: 30px !important;
+}
+#modules>#title>h1{
+	margin-top: 70px;	
+}	
 #bookingblock>div>div:nth-child(1){
 	position: relative;
 	margin: 10px 0px;
@@ -865,10 +873,9 @@ section>a{
 	right:0;
 }
 .main-content>#title>h1{
-	margin: 70px 0px 0px 0px;
+	margin: 40px 0px 0px 0px;
 	padding: 0px;
 	box-sizing: border-box;
-	font-size: 2em;
 }
 h2{
 	color: #9C9A40;
@@ -910,7 +917,10 @@ h2{
 }
 .enquiries{
 	padding-bottom: 50px;
-	margin-top: 10px;
+	margin-top: 0px;
+}
+.enquiries>#title{
+	margin-top: -30px;	
 }
 .module{
 	height: 325px;
@@ -924,6 +934,9 @@ h2{
 
 
 @media (max-width: 767px){
+.navbar-brand{
+	width: 20%;	
+}
 .main-content{
 	top:0;
 }
@@ -945,9 +958,6 @@ h2{
 	height: auto;
 	postion: absolute;
 }
-.navbar-brand{
-		width: 0;
-	}
 .main-content{
 	clear: both;
 	position: relative;
@@ -994,7 +1004,6 @@ footer section{
 	padding: auto;
 	margin: auto;
 }
-
 #Logo-Img>img {
 	height: 100%;
 	width: 100%;
@@ -1010,6 +1019,15 @@ footer section{
 .linksbox{
 	width: 80%;
 }
+#title{
+	margin-top: 60px;	
+}
+.homepage>#title{
+	margin-top:20px;
+}
+.enquiries>#title{
+	margin-top: 0px;	
+}
 
 }
 
@@ -1019,15 +1037,18 @@ footer section{
 .linksbox{
 	width: 90%;
 }
+.navbar-brand{
+	width: 22%;	
+}
 }
 
 @media (max-width: 575px){
-	.col-xxs-12{
-		width: 100%;
-		text-align: left;
-		position: relative;
-		left: 20px;
-	}
+.col-xxs-12{
+	width: 100%;
+	text-align: left;
+	position: relative;
+	left: 20px;
+}
 .linksbox{
 	width: 95%;
 }
