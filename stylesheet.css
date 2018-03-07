@@ -71,8 +71,8 @@ a>img{
 #Logo-Img{
 	height:100%;
 	width: 100%;
-	opacity: 0.2;
-	padding: auto;
+	opacity: 1;
+	padding: 10px;
 	margin: auto;
 }
 nav{
@@ -111,7 +111,7 @@ nav{
 	color: #9C9A40;
 }
 #Logo-Img>span{
-	color: #5388CD;
+	color:#5A9399;
 	font-weight: bold;
 }
 div>a{
@@ -158,7 +158,7 @@ li:hover{
 
 .main-content{
 	position: relative;
-	top: 40px;
+	top: 0px;
 	height: 100%;
 }
 #title{
@@ -172,7 +172,7 @@ hr{
 	opacity: 0.4;
 }
 .main-content>#title>h1{
-	margin: 70px 0px 0px 0px;
+	margin: 10px 0px 0px 0px;
 	padding: 0px;
 	box-sizing: border-box;
 }
@@ -216,7 +216,7 @@ a>div>span{
 }
 a:focus, a:hover{
 	text-decoration: none;
-	color: #5388CD;
+	color: #44ADBC;
 }
 p>span>a:hover{
 	opacity:0.8;
@@ -238,6 +238,47 @@ p>span>a{
 	padding: 0 10px 0;
 	margin: auto;
 }
+div>h2>a{
+	color:#44ADBC;
+}
+.bookingform>a:hover>div>span{
+	color: #fff;
+}
+.bookingform>a:hover>div{
+	border: solid 1px #fff;
+}
+.main-content>.bookingform{
+	border: none;
+}
+.main-content>.bookingform:hover{
+	border: none;
+}
+.bookingform{
+	margin-top: 50px;
+	border: solid 2px transparent;
+}
+.bookingform .box{
+	padding:auto;
+	margin-top: auto;
+	background-color:#44ADBC;
+	width: 300px;
+	height: 100%;
+	clear: both;
+}
+.bookingform>span{
+	color: #000;
+	background: transparent;
+	font-size: 1.5em;
+	position: relative;
+	top: 0px;
+}
+.bookingform:hover>span{
+	color: #44ADBC;
+}
+.bookingform:hover{
+	border: solid 2px #44ADBC;
+}
+
 
 /** Courses **/
 
@@ -340,7 +381,7 @@ p>span>a{
 /** EnqForms **/
 
 .enquiries{
-	top:0px;
+	top: -10px;
 	padding-bottom: 30px; 
 }
 #enquiryblock{
@@ -354,44 +395,7 @@ p>span>a{
 #easteremail>h2>a{
 	text-decoration: underline;
 }
-.bookingform>a:hover>div>span{
-	color: #fff;
-}
-.bookingform>a:hover>div{
-	border: solid 1px #fff;
-}
-.main-content>.bookingform{
-	border: none;
-	margin-top: 5px;
-}
-.main-content>.bookingform:hover{
-	border: none;
-}
-.bookingform{
-	margin-top: 50px;
-	border: solid 2px transparent;
-}
-.bookingform .box{
-	padding:auto;
-	margin-top: auto;
-	background-color:#5388CD;
-	width: 300px;
-	height: 100%;
-	clear: both;
-}
-.bookingform>span{
-	color: #000;
-	background: transparent;
-	font-size: 1.5em;
-	position: relative;
-	top: 0px;
-}
-.bookingform:hover>span{
-	color: #5388CD;
-}
-.bookingform:hover{
-	border: solid 2px #5388CD;
-}
+
 form{
 	font-family: 'Roboto Mono', monospace;
 }
@@ -500,7 +504,7 @@ body {font-family: Verdana, sans-serif;}*/
 	margin-bottom: 10px;
 }
 #newalevel{
-	color:#5388CD;
+	color:#44ADBC;
 }
 #oldalevel{
 	color:#9C9A40;
@@ -521,7 +525,7 @@ body {font-family: Verdana, sans-serif;}*/
 }
 .modulebreakdowns>div>.blue{
 	text-align: center;
-	color: #5388CD;
+	color: #44ADBC;
 	width: 90%;
 	margin: 0px;
 	padding: 5px;
@@ -540,7 +544,7 @@ body {font-family: Verdana, sans-serif;}*/
 	margin: 10px 30px;
 }
 #modules{
-	top: 0px;
+	top: -70px;
 }
 .p2{
 	margin-left: 70px;
