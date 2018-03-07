@@ -775,6 +775,7 @@ section>a{
 	font-size: 1.8em;
 }	
 	/** TESTIMONIAL BOX SIZES **/
+
 #testimonial-tiles>.row-3-1{
 	height:250px;
 }
@@ -790,6 +791,7 @@ section>a{
 #testimonial-tiles>.row-3-5{
 	height:500px;
 }
+	
 }
 
 
@@ -878,6 +880,7 @@ h2{
     background-repeat: no-repeat;
     min-width: 960px;
 }
+	
 #testimonial-tiles>.row-2-1{
 	height:225px;
 }
