@@ -75,6 +75,10 @@ a>img{
 	padding: 10px;
 	margin: auto;
 }
+#Logo-Img2{
+	height: 40%;
+	width: 40%;
+}
 nav{
 	margin:0;
 }
@@ -116,7 +120,7 @@ nav{
 #form>a{
 	color: #9C9A40;
 }
-#Logo-Img>span{
+#Logo-Img>span, #Logo-Img2>span{
 	color:#5A9399;
 	font-weight: bold;
 }
@@ -332,14 +336,14 @@ div>h2>a{
 	vertical-align: middle;
 }
 #tuition{
-	margin-top: 50px;
+	margin-top: 0px;
 	height: 100%;
 }
 
 /** About **/
 
 .abouttitle{
-	bottom: 70px;
+	bottom: 50px;
 	padding-bottom: 40px;
 }
 .lefttext{
@@ -369,7 +373,6 @@ div>h2>a{
 	float: right;
 	width: 45%;
 	height: auto;
-	bottom: 75px;
 	color: white;
 	font-size: 1em;
 	margin-right: 20px;
@@ -383,11 +386,14 @@ div>h2>a{
 	position: relative;
 	font-size: 1em;
 }
+.testimonials, .reference{
+	font-size: 0.9em;
+}
 
 /** EnqForms **/
 
 .enquiries{
-	top: -10px;
+	top: 0px;
 	padding-bottom: 30px; 
 }
 #enquiryblock{
@@ -825,7 +831,7 @@ section>a{
 	width: 100%;
 	height: auto;
 	margin: auto;
-	bottom: 75px;
+	bottom: 0px;
 	font-size: 1em;
 }
 .righttext>img{
@@ -937,7 +943,17 @@ h2{
 }
 }
 
-
+@media (min-width: 768px){
+	.testtitle{
+		bottom: 50px;
+	}
+	#tuition{
+	margin-top: 0px;
+	position: relative;
+	top: -50px;
+	}
+	
+}
 
 
 @media (max-width: 767px){
@@ -1008,11 +1024,11 @@ footer section{
 	padding: auto;
 	margin: auto;
 }
-#Logo-Img>img {
-	height: 100%;
-	width: 100%;
-	padding: 10px;
-	margin: 0px 0px 0px 10px;
+#Logo-Img>img, #Logo-Img2>img {
+	height: 40%;
+	width: 40%;
+	padding: 0px;
+	margin: 0px 0px 0px 0px;
 }
 .module{
 	height: auto;
@@ -1024,13 +1040,21 @@ footer section{
 	width: 80%;
 }
 #title{
-	margin-top: 60px;	
+	margin-top: 0px;	
 }
-.homepage>#title{
+
+.homepage>#title>h1{
 	margin-top:20px;
 }
 .enquiries>#title{
 	margin-top: 0px;	
+}
+	#modules{
+		top: 0px;
+	}
+	.abouttitle{
+	bottom: 0px;
+	padding-bottom: 100px;
 }
 
 }
