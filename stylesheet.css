@@ -8,7 +8,7 @@ Neutral Gray: #898E8C **/
 
 /** All **/
 body{
-	height: 100%;
+	height: 10%;
 	width: 100%;
 	background-color: #000;
 	font-family: 'Roboto Mono', monospace;
@@ -72,7 +72,7 @@ a>img{
 	height:100%;
 	width: 100%;
 	opacity: 1;
-	padding: 10px;
+	padding: 1px;
 	margin: auto;
 }
 #Logo-Img2{
@@ -129,7 +129,7 @@ div>a{
 	width: 100%;
 }
 .navbar-default .navbar-nav>li>a, #navHomeButton>a {
-	color:#fff;
+	color:#f57322;
 	font-weight: bold;
 	background-color: transparent;
 }
@@ -187,14 +187,14 @@ hr{
 	box-sizing: border-box;
 }
 h2{
-	color: #9C9A40;
+	color: #faf604;
 }
 .main-content>div>div{
 	height: 100%;
 }
 a>div>span{
 	background-color: transparent;
-	color: #000;
+	color: #f68640;
 	font-size: 1em;
 	height: auto;
 	vertical-align: middle;
@@ -207,7 +207,7 @@ a>div>span{
 }
 .box{
 	border: solid 2px transparent;
-	background-color: #fff;
+	background-color: #200aeb;
 	height: 30px;
 	width: 100%;
 	opacity: 0.7;
@@ -215,18 +215,18 @@ a>div>span{
 	position:relative;
 	margin: auto;
 	margin-bottom: 15px;
-	color: #000;
+	color: #f98550;
 	border-radius: 5px;
 }
 .box:hover, .box:hover>span{
-	color: #005960;
+	color: #3205fe;
 }
 .box:hover{
 	border: solid 2px #005960;
 }
 a:focus, a:hover{
 	text-decoration: none;
-	color: #44ADBC;
+	color: #3a06f6;
 }
 p>span>a:hover{
 	opacity:0.8;
@@ -818,7 +818,7 @@ section>a{
 
 @media (max-width: 991px){
 .modules{
-	color: white;
+	color: rgb(229, 17, 17);
 	width: 100%;
 }
 .lefttext{
@@ -875,7 +875,7 @@ section>a{
 }
 #title{
 	margin-bottom: 20px;
-	color: #ffffff;
+	color: #f78235;
 	position: relative;
 	font-family: 'Roboto Mono', monospace;
 }
@@ -895,7 +895,7 @@ section>a{
 	box-sizing: border-box;
 }
 h2{
-	color: #9C9A40;
+	color: #f6f203;
 	font-size: 1.5em;
 }	
 #myVideo{
