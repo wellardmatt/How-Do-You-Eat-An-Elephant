@@ -173,7 +173,7 @@ li:hover{
 }
 #title{
 	margin-bottom: 20px;
-	color: #fff;
+	color: #f05c07;
 	position: relative;
 	font-family: 'Roboto Mono', monospace;
 }
@@ -306,7 +306,7 @@ div>h2>a{
 }
 #easterrates>div>h1, #tuitionrates>div>h1{
 	font-size: 1.5em;
-	color: white;
+	color: rgb(244, 88, 4);
 	text-decoration: underline;
 }
 #easterrates>div>span, #tuitionrates>div>span{
@@ -355,7 +355,7 @@ div>h2>a{
 	margin-left: 20px;
 }
 .lefttext>h1, .lefttext div, .lefttext p, .lefttext li{
-	color: #fff;
+	color: #ee5c08;
 }
 .lefttext>h1, .righttext>h1{
 	font-size: 2em;
